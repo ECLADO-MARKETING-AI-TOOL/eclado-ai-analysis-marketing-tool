@@ -56,6 +56,37 @@
 - 데이터 최신 갱신 시점, 연동 오류, 데이터 누락/불일치를 표시.
 - AI의 제안과 실제로 실행된 캠페인을 분리하고, 실행 결과를 추적할 수 있도록 설계.
 
+### 2.6 Approved extension: AI inventory depletion and reorder recommendations (승인 기능 1)
+
+- 사업자 고객별 주문 간격, 주문 수량 및 상품별 구매 주기를 바탕으로 **예상 재주문 시점**과 소진 가능성을 제시한다.
+- 실제 재고·소비량 데이터가 없으면 **실제 재고가 부족하다고 단정하지 않는다.** 주문 이력 기반 예측이며, 예측 구간·신뢰도·근거 거래 수를 함께 표시한다.
+- 권장 재주문 상품과 연락 시점을 담당자에게 제안하되 재고 발주·고객 연락은 승인 전 자동 실행하지 않는다.
+
+### 2.7 Approved extension: AI early churn warning (승인 기능 2)
+
+- 구매 주기 지연, 주문 빈도 및 금액 감소, 환불 증가, 확인 가능한 불만 리뷰 등 **관찰 가능한 신호**를 조합해 이탈 위험 후보를 식별한다.
+- 점수 및 임계값은 설명 가능한 규칙으로 시작하고, 실제 이탈 정답 데이터가 확보되기 전에는 검증된 이탈 확률처럼 표시하지 않는다.
+- 고객별 근거·최근 변화·권장 후속 조치를 제공하되 부정 리뷰 하나만으로 이탈이나 고객 성향을 확정하지 않는다.
+
+### 2.8 Approved extension: Marketing effectiveness measurement (승인 기능 4)
+
+- 캠페인별 대상/발송/수신/클릭(데이터가 제공되는 경우)/쿠폰 사용/재구매/매출·환불·비용을 연결해 효과를 검토한다.
+- **발송 후 매출 증가 = 캠페인 때문에 증가한 매출**이라고 주장하지 않는다. 가능하면 사전 정의된 통제군·홀드아웃 또는 비교 집단으로 증분 효과를 추정한다.
+- 통제군 없는 프로토타입에서는 전후 비교를 **관찰된 성과**라고 표시하고 인과 효과로 포장하지 않는다. 합성 캠페인 데이터로 전체 흐름을 시연한다.
+
+### 2.9 Approved extension: AI cross-sell product recommendations (승인 기능 3)
+
+- 고객의 실제 구매 조합, 상품 카테고리·용도 및 유사 사업자 집단의 **집계된** 구매 패턴을 활용해 함께 구매할 만한 제품을 제안한다.
+- 추천 제품마다 '왜 추천했는가'와 근거 기간·표본 수를 표시하고, 재고·상품 적합성·가격·고객 선호/거부 이력을 확인한다.
+- 제품 조합의 상관관계를 개인 피부 특성이나 효능 보증으로 해석하지 않으며, 실제 고객 대상 추천 메시지는 승인 후 발송한다.
+
+### 2.10 Approved extension: External market signals and sales anomaly analysis (승인 기능 5)
+
+- 내부 매출 급등·급락 또는 상품 리뷰 악화가 발생하면 허용된 외부 출처의 가격·프로모션·경쟁 상품·공개 리뷰·검색 트렌드를 비교해 **가능한 설명**을 제시한다.
+- 외부 데이터 수집은 공개·허가된 API/피드 및 사이트 이용조건을 준수하고, 수집 시점·출처 URL·적용 범위·데이터 공백을 기록한다.
+- 프로토타입에서는 **시간 정보와 출처가 명시된 합성 외부 신호**로 감지→비교→원인 가설→대응 제안의 흐름을 구현한다. 실제 시장 데이터를 가져왔다고 표시하지 않는다.
+- 근거 부족 시 '원인 확인 불가'를 명시하고, 외부 요인과 내부 매출 변화 사이의 인과관계를 단정하지 않는다.
+
 ## 3. Prototype-first, production-ready architecture (프로토타입 개발 원칙)
 
 **사업자 승인 이전에는 실제 회원 명단이나 비공개 주문 데이터를 연결하지 않는다.** 실제 API 자격 증명이나 운영 DB 접근이 없어도 시연 가능한 프로토타입을 먼저 완성한다.
@@ -90,7 +121,7 @@
 
 ### MUST
 
-- 항상 본 README의 목표인 **매출 분석 → 고객 행동 이해 → 근거 기반 추천 → 승인된 맞춤 마케팅 → 결과 측정**에 연결되는 기능만 개발한다.
+- 항상 본 README의 목표인 **매출 분석 → 고객 행동 이해 → 근거 기반 추천 → 승인된 맞춤 마케팅 → 결과 측정**에 연결되는 기능만 개발한다. **2.1~2.10이 승인 범위**이며, 2.6~2.10의 추가 기능 다섯 개도 정식 승인된 요구사항으로 취급한다.
 - 새로운 기능 제안과 이미 승인된 개발 요구사항을 구분한다. **제안만으로 기능을 범위에 추가하지 않는다.**
 - 핵심 기능을 시연할 수 있는 더미 데이터를 활용하되, 실제/가상 여부를 모든 화면·리포트에 분명히 표시한다.
 - 분석 결과에 데이터 기간·표본·출처·확실성/불확실성을 표시하고, AI 가설은 사실이나 인과 증명으로 표현하지 않는다.
@@ -114,12 +145,14 @@
 ## 6. Delivery roadmap (개발 순서)
 
 - **Phase 1 — Demo foundation:** existing synthetic sales, catalog and UI; add coherent synthetic customer/review/event scenarios, source labels, unified analytic contracts and reliable tests.
-- **Phase 2 — Core analytics:** sales/product/customer dashboards, buying-pattern analysis, negative-review signals, anomaly detection, evidence-based AI insight previews (safe fake/model abstraction).
-- **Phase 3 — Marketing workflow previews:** customer/product recommendation drafts, birthdays and other timing scenarios, negative-review recovery drafts, campaign preview, human approval states, dry-run and measurement placeholders. **No real sending.**
-- **Phase 4 — Authorized integration:** after ECLADO approval, obtain permitted `laonmall.co.kr` API/export access; connect customer/order/refund/review/consent providers, run reconciliation, implement Supabase persistence/auth/permissions.
-- **Phase 5 — Controlled production:** verified message/coupon providers, compliance and approval gates, monitoring, rate limits, rollback, audit and measured campaign outcomes; enable only after acceptance checks.
+- **Phase 2 — Core analytics:** sales/product/customer dashboards, buying-pattern analysis, negative-review signals, anomaly detection, **재주문 시점 예측·이탈 조기경보·교차판매 추천·외부 신호 연계 가설 분석**을 합성 데이터로 시연하고 근거·신뢰도·한계를 표시 (safe fake/model abstraction).
+- **Phase 3 — Marketing workflow previews:** customer/product recommendation drafts, birthdays and other timing scenarios, negative-review recovery drafts, 재주문/이탈/교차판매 대상 캠페인, human approval states, dry-run, **가상 캠페인 실적 및 통제군 기반 성과 비교 시연**. **No real sending.**
+- **Phase 4 — Authorized integration:** after ECLADO approval, obtain permitted `laonmall.co.kr` API/export access; connect customer/order/refund/review/consent providers, run reconciliation, implement Supabase persistence/auth/permissions. 외부 시장 신호는 **별도 허가된 소스별 어댑터**로 연결하며 실제 업데이트 주기를 검증.
+- **Phase 5 — Controlled production:** verified message/coupon providers, compliance and approval gates, monitoring, rate limits, rollback, audit, **재주문·이탈·교차판매 모델의 실데이터 성능 확인** 및 **통제군 기반 캠페인 증분 성과 검증**; enable only after acceptance checks.
 
-**Out of scope unless separately approved:** the assistant's optional feature proposals (predictive inventory/reorder alerts, advanced churn scoring, cross-sell models, controlled incrementality experiments, and broad marketplace competitive intelligence beyond the explicitly requested anomaly context). They remain proposals, not approved implementation requirements.
+**Approved additional features (2026-10-20):** (1) AI 재고 소진 예측 + 재주문 추천, (2) AI 고객 이탈 조기경보, (3) 제품 교차판매 AI, (4) AI 마케팅 성과 검증, (5) 외부 시장 변화와 매출 이상 연관 분석. 위 **2.6~2.10**의 정의와 안전장치를 구현 범위로 확정한다.
+
+**Out of scope unless separately approved:** 위 다섯 기능의 범위를 넘어서는 신규 서비스(범용 챗봇, 새 쇼핑몰 구축, 승인되지 않은 외부 플랫폼 무단 수집 등), 실제 자동 문자/쿠폰/발주 실행, 이용 목적과 근거가 없는 개인정보·건강정보 추론. 추가 제안은 사용자 승인 전까지 개발 범위에 포함하지 않는다.
 
 ---
 
