@@ -1,0 +1,1233 @@
+{
+  "source_file": "260511_ECLADO_Price_List_KRW (1).xlsx",
+  "source_sha256": "ae642a7ccc071fba34822437c9bde256700a68e9bed655d91c1157449f250a8a",
+  "source_sheet": "ECLADO_Products_List",
+  "products": {
+    "11": {
+      "catalog_name": "에끌라두 퍼펙트 클렌징 스무디 밤 200ml",
+      "variants": [
+        {
+          "source_row": 58,
+          "english_name": "Perfect Cleansing Smoothie Balm",
+          "capacity": "200ml",
+          "ean": "8809820610756"
+        }
+      ],
+      "note": null
+    },
+    "12": {
+      "catalog_name": "에끌라두 플로리스 립앤아이리무버 200ml",
+      "variants": [
+        {
+          "source_row": 64,
+          "english_name": "Flawless Lip&Eye Remover",
+          "capacity": "200ml",
+          "ean": "8809820611272"
+        }
+      ],
+      "note": null
+    },
+    "13": {
+      "catalog_name": "에끌라두 퓨리화잉 클렌져",
+      "variants": [
+        {
+          "source_row": 56,
+          "english_name": "Purifying Cleanser",
+          "capacity": "500ml",
+          "ean": "8809085952523"
+        },
+        {
+          "source_row": 55,
+          "english_name": "Purifying Cleanser",
+          "capacity": "1000ml",
+          "ean": "8809820611289"
+        }
+      ],
+      "note": null
+    },
+    "14": {
+      "catalog_name": "에끌라두 엔자임 딥 클렌져 (각질제거 가루클렌져 엔자임파우더)",
+      "variants": [
+        {
+          "source_row": 60,
+          "english_name": "Enzyme Deep Cleanser Pure Powder",
+          "capacity": "50g",
+          "ean": "8809820610824"
+        },
+        {
+          "source_row": 59,
+          "english_name": "Enzyme Deep Cleanser Pure Powder",
+          "capacity": "100g",
+          "ean": "8809820610466"
+        }
+      ],
+      "note": null
+    },
+    "15": {
+      "catalog_name": "듀이 고마쥐 딥 클렌져 각질 지우개 고마주 클렌져",
+      "variants": [
+        {
+          "source_row": 68,
+          "english_name": "Dewy Gommage Deep Cleanser-S",
+          "capacity": "100g",
+          "ean": "8809820611340"
+        },
+        {
+          "source_row": 67,
+          "english_name": "Dewy Gommage Deep Cleanser-S",
+          "capacity": "240g",
+          "ean": "8809096943909"
+        }
+      ],
+      "note": null
+    },
+    "17": {
+      "catalog_name": "에끌라두 마일드 스크럽 딥 클렌져",
+      "variants": [
+        {
+          "source_row": 70,
+          "english_name": "Mild Scrub Deep Cleanser",
+          "capacity": "100g",
+          "ean": "8809820610671"
+        },
+        {
+          "source_row": 69,
+          "english_name": "Mild Scrub Deep Cleanser",
+          "capacity": "240g",
+          "ean": "8809820611401"
+        }
+      ],
+      "note": null
+    },
+    "18": {
+      "catalog_name": "에끌라두 인핸서 마일드 클렌져 (폼 클렌징)",
+      "variants": [
+        {
+          "source_row": 66,
+          "english_name": "Enhancer Mild Cleanser",
+          "capacity": "200ml",
+          "ean": "8809820610626"
+        },
+        {
+          "source_row": 65,
+          "english_name": "Enhancer Mild Cleanser",
+          "capacity": "500ml",
+          "ean": "8809820610367"
+        }
+      ],
+      "note": null
+    },
+    "19": {
+      "catalog_name": "에끌라두 파하 소프트 필15 120ml (필링)",
+      "variants": [
+        {
+          "source_row": 71,
+          "english_name": "PHA Soft Peel 15",
+          "capacity": "120ml",
+          "ean": "8809820611111"
+        }
+      ],
+      "note": null
+    },
+    "20": {
+      "catalog_name": "블루페탈 카밍 필 에센스 150ml (+페이셜 케어 코튼 증정)",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "21": {
+      "catalog_name": "에끌라두 리퀴드 AHA 딥 필 100ml",
+      "variants": [
+        {
+          "source_row": 62,
+          "english_name": "Liquid AHA Deep Peel",
+          "capacity": "100ml",
+          "ean": "8809820611227"
+        }
+      ],
+      "note": null
+    },
+    "22": {
+      "catalog_name": "에끌라두 AHA 엑스폴리에이트 딥 필 100g",
+      "variants": [
+        {
+          "source_row": 61,
+          "english_name": "AHA Expoliate Deep Peel",
+          "capacity": "100g",
+          "ean": "8809096941400"
+        }
+      ],
+      "note": null
+    },
+    "23": {
+      "catalog_name": "에끌라두 A.C 센텔라 폼클렌징 100g",
+      "variants": [
+        {
+          "source_row": 50,
+          "english_name": "A.C Centella Foam Cleanser",
+          "capacity": "100g",
+          "ean": "8809820611081"
+        }
+      ],
+      "note": null
+    },
+    "24": {
+      "catalog_name": "에끌라두 안티셉틱 모이스춰 스프레이 170ml",
+      "variants": [
+        {
+          "source_row": 63,
+          "english_name": "Antiseptic Moisture Spray",
+          "capacity": "170ml",
+          "ean": "8809096940441"
+        }
+      ],
+      "note": "엑셀에서 서로 다른 영문 제품에 같은 EAN이 기재됨. 원본 확인 필요"
+    },
+    "25": {
+      "catalog_name": "에끌라두 버블토너 거품기 100ml",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "27": {
+      "catalog_name": "에끌라두 리밸런싱 토너",
+      "variants": [
+        {
+          "source_row": 41,
+          "english_name": "Rebalancing Toner",
+          "capacity": "500ml",
+          "ean": "8809820610350"
+        },
+        {
+          "source_row": 40,
+          "english_name": "Rebalancing Toner",
+          "capacity": "1000ml",
+          "ean": "8809820610459"
+        }
+      ],
+      "note": null
+    },
+    "28": {
+      "catalog_name": "에끌라두 로얄 밀크 프로틴 토너 500ml (단백질토너) 거품기 증정",
+      "variants": [
+        {
+          "source_row": 109,
+          "english_name": "Royal Milk Protein Toner",
+          "capacity": "500ml",
+          "ean": "8809820610121"
+        }
+      ],
+      "note": null
+    },
+    "29": {
+      "catalog_name": "에끌라두 셀 매직 스킨로션",
+      "variants": [
+        {
+          "source_row": 12,
+          "english_name": "Cell Magic Skin Lotion",
+          "capacity": "140ml",
+          "ean": "8809820611135"
+        },
+        {
+          "source_row": 13,
+          "english_name": "Cell Magic Skin Lotion",
+          "capacity": "500ml",
+          "ean": "8809820610084"
+        }
+      ],
+      "note": null
+    },
+    "30": {
+      "catalog_name": "에끌라두 멜라이져 화이트닝 토너 150ml",
+      "variants": [
+        {
+          "source_row": 31,
+          "english_name": "Melaser Whitening Toner",
+          "capacity": "150ml",
+          "ean": "8809820611296"
+        }
+      ],
+      "note": null
+    },
+    "32": {
+      "catalog_name": "에끌라두 진세노 트리플 에센셜 토너 150ml",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "33": {
+      "catalog_name": "에끌라두 A.C 오일프리토너 150ml",
+      "variants": [
+        {
+          "source_row": 52,
+          "english_name": "A.C Oil Free Toner",
+          "capacity": "150ml",
+          "ean": "8809820610343"
+        }
+      ],
+      "note": null
+    },
+    "34": {
+      "catalog_name": "에끌라두리후레쉬 스프레이 토너 200ml",
+      "variants": [
+        {
+          "source_row": 48,
+          "english_name": "Refresh Spray Toner",
+          "capacity": "200ml",
+          "ean": "8809820610985"
+        }
+      ],
+      "note": null
+    },
+    "35": {
+      "catalog_name": "에끌라두 레스퍼레이션 토너 150ml",
+      "variants": [
+        {
+          "source_row": 7,
+          "english_name": "Respiration Toner",
+          "capacity": "150ml",
+          "ean": "8809820611142"
+        }
+      ],
+      "note": null
+    },
+    "36": {
+      "catalog_name": "에끌라두 NK-CX 프로틴 포텐 부스터 100ml",
+      "variants": [
+        {
+          "source_row": 6,
+          "english_name": "NK-CX Protein Potent Booster",
+          "capacity": "100ml",
+          "ean": "8809820610138"
+        }
+      ],
+      "note": null
+    },
+    "37": {
+      "catalog_name": "에끌라두 알파 하이드로 부스터 겔 세럼 500ml",
+      "variants": [
+        {
+          "source_row": 49,
+          "english_name": "Alpha Hydro Booster Gel",
+          "capacity": "500ml",
+          "ean": "8809820610114"
+        }
+      ],
+      "note": null
+    },
+    "38": {
+      "catalog_name": "에끌라두 리후레쉬 V-C 로션 1000ml",
+      "variants": [],
+      "note": "몰은 1000ml, 엑셀 Refresh V-C Lotion은 1000g으로 단위가 달라 연결 보류"
+    },
+    "39": {
+      "catalog_name": "에끌라두 아르간 오일 30ml",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "40": {
+      "catalog_name": "에끌라두 NK-CX 코어 앰플 1제&amp;2제 x 12ea",
+      "variants": [
+        {
+          "source_row": 4,
+          "english_name": "NK-CX Core Ampoule",
+          "capacity": "5ml*6, 7ml*6",
+          "ean": "8809820611630"
+        }
+      ],
+      "note": null
+    },
+    "41": {
+      "catalog_name": "블루페탈 블레미쉬 카밍 오일 세럼 24ml",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "42": {
+      "catalog_name": "에끌라두 레스큐어 마이크로바이옴 골드 앰플 (3.5mlx10ea)",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "43": {
+      "catalog_name": "에끌라두 레스큐어 하이드라 컴플렉스 앰플 (3.5mlx10ea)",
+      "variants": [
+        {
+          "source_row": 83,
+          "english_name": "Rescuer Hydra Complex Ampoule",
+          "capacity": "3.5ml * 10pcs",
+          "ean": "8809820610930"
+        }
+      ],
+      "note": null
+    },
+    "44": {
+      "catalog_name": "에끌라두 레스큐어 시카 포어 앰플(3.5mlx10ea)",
+      "variants": [
+        {
+          "source_row": 81,
+          "english_name": "Rescuer Cica Pore Ampoule",
+          "capacity": "3.5ml * 10pcs",
+          "ean": "8809820610923"
+        }
+      ],
+      "note": null
+    },
+    "45": {
+      "catalog_name": "에끌라두 레스큐어 필라겐™ 앰플 (3.5mlx10ea)",
+      "variants": [
+        {
+          "source_row": 82,
+          "english_name": "Rescuer Filagen Ampoule",
+          "capacity": "3.5ml * 10pcs",
+          "ean": "8809820610497"
+        }
+      ],
+      "note": null
+    },
+    "46": {
+      "catalog_name": "에끌라두 레스큐어 멀티 비타민 앰플 (3.5mlx10ea)",
+      "variants": [
+        {
+          "source_row": 80,
+          "english_name": "Rescuer Multi Vitamin Ampoule",
+          "capacity": "3.5ml * 10pcs",
+          "ean": "8809820610916"
+        }
+      ],
+      "note": null
+    },
+    "47": {
+      "catalog_name": "에끌라두 멜라이져 화이트닝 세럼 50ml",
+      "variants": [
+        {
+          "source_row": 32,
+          "english_name": "Melaser Whitening Serum",
+          "capacity": "50ml",
+          "ean": "8809820611012"
+        }
+      ],
+      "note": null
+    },
+    "48": {
+      "catalog_name": "에끌라두 진세노 트리플 퍼밍 세럼 50ml",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "50": {
+      "catalog_name": "에끌라두 샤이닝V-C세럼 100ml",
+      "variants": [
+        {
+          "source_row": 20,
+          "english_name": "Shining V-C Serum",
+          "capacity": "100ml",
+          "ean": "8809820610510"
+        }
+      ],
+      "note": null
+    },
+    "51": {
+      "catalog_name": "에끌라두 리바이탈라이징 엘라스틴&amp;콜라겐세럼 100ml",
+      "variants": [
+        {
+          "source_row": 21,
+          "english_name": "Revitalizing Elastin & Collagen Serum",
+          "capacity": "100ml",
+          "ean": "8809820610527"
+        }
+      ],
+      "note": null
+    },
+    "52": {
+      "catalog_name": "에끌라두 A.C 컨트롤 앰플 35ml",
+      "variants": [
+        {
+          "source_row": 53,
+          "english_name": "A.C Control Ampoule F",
+          "capacity": "35ml",
+          "ean": "8809820610763"
+        }
+      ],
+      "note": null
+    },
+    "53": {
+      "catalog_name": "에끌라두 셀피토안티링클 세럼 50ml",
+      "variants": [
+        {
+          "source_row": 15,
+          "english_name": "Cell Phyto Anti Wrinkle Serum",
+          "capacity": "50ml",
+          "ean": "8809820610862"
+        }
+      ],
+      "note": null
+    },
+    "54": {
+      "catalog_name": "에끌라두 Cp50앰플 (5mlx10개입)",
+      "variants": [
+        {
+          "source_row": 11,
+          "english_name": "C.P 50 Ampoule",
+          "capacity": "5ml*10pcs",
+          "ean": "8809820610534"
+        }
+      ],
+      "note": null
+    },
+    "55": {
+      "catalog_name": "에끌라두 레스퍼레이션 앰플 30ml",
+      "variants": [
+        {
+          "source_row": 8,
+          "english_name": "Respiration Ampoule",
+          "capacity": "30ml",
+          "ean": "8809820610725"
+        }
+      ],
+      "note": null
+    },
+    "56": {
+      "catalog_name": "에끌라두 레스퍼레이션 세럼 100ml",
+      "variants": [
+        {
+          "source_row": 9,
+          "english_name": "Respiration Serum",
+          "capacity": "100ml",
+          "ean": "8809820610718"
+        }
+      ],
+      "note": null
+    },
+    "57": {
+      "catalog_name": "에끌라두 로얄 엑소 프로틴 앰플 50ml",
+      "variants": [
+        {
+          "source_row": 119,
+          "english_name": "Royal Exo-Protein Ampoule",
+          "capacity": "50ml",
+          "ean": "8809820611210"
+        }
+      ],
+      "note": null
+    },
+    "58": {
+      "catalog_name": "에끌라두 비타 레디언스 글루타치 백옥 세럼",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "59": {
+      "catalog_name": "에끌라두 콜라겐 5,000 세럼(콜라겐 탄력 영양 세럼)",
+      "variants": [
+        {
+          "source_row": 114,
+          "english_name": "COLLAGEN 5000 SERUM",
+          "capacity": "33g",
+          "ean": "8809820610275"
+        }
+      ],
+      "note": "33g만 연결. 몰의 100g 옵션과 엑셀의 100ml 항목은 단위가 달라 연결 보류"
+    },
+    "60": {
+      "catalog_name": "에끌라두 이데베논 세럼 33g",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "61": {
+      "catalog_name": "에끌라두 아줄렌 모이스트 세럼(아줄렌 수분 세럼)",
+      "variants": [
+        {
+          "source_row": 113,
+          "english_name": "AZULENE MOIST SERUM",
+          "capacity": "33g",
+          "ean": "8809820610268"
+        },
+        {
+          "source_row": 111,
+          "english_name": "AZULENE MOIST SERUM",
+          "capacity": "100ml",
+          "ean": "8809820610688"
+        }
+      ],
+      "note": null
+    },
+    "62": {
+      "catalog_name": "에끌라두 아로마 에너자이징 페이스&amp;바디 오일",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "63": {
+      "catalog_name": "임박특가)에끌라두 이데베논400앰플 0.7ml (리프팅샷 )",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "64": {
+      "catalog_name": "임박특가)에끌라두 엑소 퓨어 프로틴 앰플 0.7ml ( 채움샷)",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "65": {
+      "catalog_name": "에끌라두 드림 바이옴 &amp; 살몬 DNA 앰플(10mlx4ea/앱플 캡 2ea)",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "66": {
+      "catalog_name": "에끌라두 브이피린 유스 에너지 밤 80g",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "67": {
+      "catalog_name": "에끌라두 셀메모리 크림",
+      "variants": [
+        {
+          "source_row": 104,
+          "english_name": "Cell Memory Cream",
+          "capacity": "30g",
+          "ean": "8809820610091"
+        },
+        {
+          "source_row": 16,
+          "english_name": "Cell Memory Cream",
+          "capacity": "50g",
+          "ean": "8809820610947"
+        },
+        {
+          "source_row": 17,
+          "english_name": "Cell Memory Cream",
+          "capacity": "200g",
+          "ean": "8809820611388"
+        }
+      ],
+      "note": null
+    },
+    "68": {
+      "catalog_name": "에끌라두 리스토레이션 캐비어 크림",
+      "variants": [
+        {
+          "source_row": 26,
+          "english_name": "Restoration Caviar Cream",
+          "capacity": "100g",
+          "ean": "8809085952615"
+        },
+        {
+          "source_row": 25,
+          "english_name": "Restoration Caviar Cream",
+          "capacity": "240g",
+          "ean": "8809096943978"
+        }
+      ],
+      "note": null
+    },
+    "69": {
+      "catalog_name": "에끌라두 NK-CX 코어 크림 25gx2개입",
+      "variants": [
+        {
+          "source_row": 5,
+          "english_name": "NK-CX Core Cream",
+          "capacity": "25g*2",
+          "ean": "8809820611593"
+        }
+      ],
+      "note": null
+    },
+    "70": {
+      "catalog_name": "에끌라두 실키 모이스춰 라이징 크림 280g",
+      "variants": [
+        {
+          "source_row": 44,
+          "english_name": "Silky Moisturizing Cream",
+          "capacity": "280g",
+          "ean": "8809820610374"
+        }
+      ],
+      "note": null
+    },
+    "71": {
+      "catalog_name": "에끌라두 멜라이져 턴 오버 크림 50g",
+      "variants": [
+        {
+          "source_row": 33,
+          "english_name": "Melaser Turn Over Cream",
+          "capacity": "50g",
+          "ean": "8809820610480"
+        }
+      ],
+      "note": null
+    },
+    "73": {
+      "catalog_name": "에끌라두 레스큐어 퍼밍 아이크림 30g",
+      "variants": [
+        {
+          "source_row": 85,
+          "english_name": "Rescuer Firming Eye Cream",
+          "capacity": "30g",
+          "ean": "8809820610503"
+        }
+      ],
+      "note": null
+    },
+    "74": {
+      "catalog_name": "에끌라두 레스큐어 시카 밤 50g",
+      "variants": [
+        {
+          "source_row": 84,
+          "english_name": "Rescuer Cica Balm",
+          "capacity": "50g",
+          "ean": "8809096940472"
+        }
+      ],
+      "note": null
+    },
+    "75": {
+      "catalog_name": "에끌라두 진세노 트리플 크림 50g",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "76": {
+      "catalog_name": "에끌라두 A.C 핌필크림 50g",
+      "variants": [
+        {
+          "source_row": 54,
+          "english_name": "A.C Pimpeel Cream",
+          "capacity": "50g",
+          "ean": "8809820610770"
+        }
+      ],
+      "note": null
+    },
+    "77": {
+      "catalog_name": "에끌라두 엑티베이션 크림 240g(수분크림)",
+      "variants": [
+        {
+          "source_row": 43,
+          "english_name": "Activation Cream",
+          "capacity": "240g",
+          "ean": "8809085955272"
+        }
+      ],
+      "note": null
+    },
+    "78": {
+      "catalog_name": "에끌라두 모이스춰 서플리먼트 크림 50g (수분젤크림)",
+      "variants": [
+        {
+          "source_row": 42,
+          "english_name": "Moisture Supplement Cream",
+          "capacity": "50g",
+          "ean": "8809820610992"
+        }
+      ],
+      "note": null
+    },
+    "79": {
+      "catalog_name": "에끌라두 스네일 리프팅 크림 50g(달팽이크림)",
+      "variants": [
+        {
+          "source_row": 24,
+          "english_name": "Snail Lifting Cream",
+          "capacity": "50g",
+          "ean": "8809820611203"
+        }
+      ],
+      "note": null
+    },
+    "80": {
+      "catalog_name": "에끌라두 셀피토안티링클 아이크림 (30g)",
+      "variants": [
+        {
+          "source_row": 14,
+          "english_name": "Cell Phyto Anti Wrinkle Eye Cream",
+          "capacity": "30g",
+          "ean": "8809820611326"
+        }
+      ],
+      "note": null
+    },
+    "81": {
+      "catalog_name": "에끌라두 [리뉴얼] 레스퍼레이션 스노우크림 100g",
+      "variants": [
+        {
+          "source_row": 10,
+          "english_name": "Respiration Snow Cream",
+          "capacity": "100g",
+          "ean": "8809820611029"
+        }
+      ],
+      "note": null
+    },
+    "82": {
+      "catalog_name": "[임박+무배]에끌라두 알파 글루타치 크림 80g (글루타치온 백옥 크림)",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "84": {
+      "catalog_name": "에끌라두 프로틴 밤 크림 80g(바세린 광 크림)",
+      "variants": [
+        {
+          "source_row": 117,
+          "english_name": "PROTEIN BALM CREAM",
+          "capacity": "80g",
+          "ean": "8809820610305"
+        }
+      ],
+      "note": null
+    },
+    "85": {
+      "catalog_name": "에끌라두 비타 래디언스 글루타치 빛크림 80g",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "86": {
+      "catalog_name": "아줄렌 모이스트 크림 80g (아줄렌 수분크림)",
+      "variants": [
+        {
+          "source_row": 115,
+          "english_name": "AZULENE MOIST CREAM",
+          "capacity": "80g",
+          "ean": "8809820610251"
+        }
+      ],
+      "note": null
+    },
+    "87": {
+      "catalog_name": "에끌라두 콜라겐 플러스 퍼밍크림 80g (콜라겐 탄력 크림)",
+      "variants": [
+        {
+          "source_row": 116,
+          "english_name": "COLLAGEN PLUS FIRMING CREAM",
+          "capacity": "80g",
+          "ean": "8809820610244"
+        }
+      ],
+      "note": null
+    },
+    "89": {
+      "catalog_name": "에끌라두 샤이닝 모이스춰 마사지크림",
+      "variants": [
+        {
+          "source_row": 112,
+          "english_name": "SHINING MOISTURE MASSAGE CREAM",
+          "capacity": "300ml",
+          "ean": "8809820610190"
+        }
+      ],
+      "note": "300ml만 연결. 몰의 80g 옵션은 엑셀에 없으며 800g 항목을 대입하지 않음"
+    },
+    "90": {
+      "catalog_name": "에끌라두 VC 리후레쉬 마사지크림",
+      "variants": [
+        {
+          "source_row": 38,
+          "english_name": "Refresh V-C Massage Cream",
+          "capacity": "1000g",
+          "ean": "8809820610541"
+        }
+      ],
+      "note": null
+    },
+    "94": {
+      "catalog_name": "에끌라두 셀메모리 B12알파크림",
+      "variants": [
+        {
+          "source_row": 105,
+          "english_name": "Cell Memory B12α Cream",
+          "capacity": "120g",
+          "ean": "8809820610640"
+        }
+      ],
+      "note": null
+    },
+    "95": {
+      "catalog_name": "에끌라두 링키 아이 에멀젼 70g (눈가전용 에멀젼)",
+      "variants": [
+        {
+          "source_row": 37,
+          "english_name": "Wrinky Eye Emulsion",
+          "capacity": "70g",
+          "ean": "8809820611128"
+        }
+      ],
+      "note": null
+    },
+    "97": {
+      "catalog_name": "에끌라두 스템셀 오리진 크림",
+      "variants": [
+        {
+          "source_row": 18,
+          "english_name": "Stem Cell Origin Cream",
+          "capacity": "50g",
+          "ean": "8809820610336"
+        },
+        {
+          "source_row": 19,
+          "english_name": "Stem Cell Origin Cream",
+          "capacity": "120g",
+          "ean": "8809820610954"
+        }
+      ],
+      "note": null
+    },
+    "99": {
+      "catalog_name": "에끌라두 아줄렌 크리스탈 마스크 700g (모델링팩)",
+      "variants": [
+        {
+          "source_row": 96,
+          "english_name": "Azulene Crystal Mask",
+          "capacity": "700g",
+          "ean": "8809820610220"
+        }
+      ],
+      "note": null
+    },
+    "100": {
+      "catalog_name": "에끌라두 알파바이옴 브라이트닝 마스크 (27gx10매)",
+      "variants": [
+        {
+          "source_row": 88,
+          "english_name": "Alphabiome Brightening Mask",
+          "capacity": "10pcs",
+          "ean": "8809820610046"
+        }
+      ],
+      "note": null
+    },
+    "101": {
+      "catalog_name": "에끌라두 클로렐라 뉴트리언트 크림",
+      "variants": [],
+      "note": "Chlorella Nutrient Cream과 Nutrient Base Cream의 동일성 확인 필요"
+    },
+    "102": {
+      "catalog_name": "에끌라두 모이스춰 수딩 젤",
+      "variants": [
+        {
+          "source_row": 47,
+          "english_name": "Moisture Soothing Gel",
+          "capacity": "100g",
+          "ean": "8809820611760"
+        }
+      ],
+      "note": "100g만 연결. 몰의 800g 옵션은 엑셀에서 확인되지 않음"
+    },
+    "103": {
+      "catalog_name": "에끌라두 진세노 플럼핑 마스크 200g",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "104": {
+      "catalog_name": "에끌라두 A.C 센텔라 마스크 200g",
+      "variants": [
+        {
+          "source_row": 51,
+          "english_name": "A.C Centella Mask",
+          "capacity": "200g",
+          "ean": "8809820611098"
+        }
+      ],
+      "note": null
+    },
+    "105": {
+      "catalog_name": "에끌라두 골드에센셜마스크(10ea)",
+      "variants": [
+        {
+          "source_row": 90,
+          "english_name": "Gold Essential Mask",
+          "capacity": "10pcs",
+          "ean": "8809310872138"
+        }
+      ],
+      "note": null
+    },
+    "106": {
+      "catalog_name": "에끌라두 너리싱 마사지 크림 280g",
+      "variants": [
+        {
+          "source_row": 95,
+          "english_name": "Nourishing Massage Cream",
+          "capacity": "280g",
+          "ean": "8809820611159"
+        }
+      ],
+      "note": null
+    },
+    "107": {
+      "catalog_name": "에끌라두 옥시젠 버블 팩 120ml",
+      "variants": [
+        {
+          "source_row": 35,
+          "english_name": "Oxygen Bubble Pack",
+          "capacity": "120ml",
+          "ean": "8809820610886"
+        }
+      ],
+      "note": null
+    },
+    "116": {
+      "catalog_name": "에끌라두 화이트닝 인핸서 선 블레미쉬 밤 비비크림 SPF 38 PA+++ 50g",
+      "variants": [
+        {
+          "source_row": 73,
+          "english_name": "Whitening Enhancer Sun Blemish Balm SPF38 PA+++",
+          "capacity": "50g",
+          "ean": "8809820610879"
+        }
+      ],
+      "note": "엑셀에서 서로 다른 영문 제품에 같은 EAN이 기재됨. 원본 확인 필요"
+    },
+    "117": {
+      "catalog_name": "에끌라두 내추럴 퍼펙트 선크림 SPF50+ PA+++ 70g",
+      "variants": [
+        {
+          "source_row": 72,
+          "english_name": "Natural Perfect Sun Cream SPF50+ PA+++",
+          "capacity": "70g",
+          "ean": "8809820610381"
+        }
+      ],
+      "note": "엑셀에서 서로 다른 영문 제품에 같은 EAN이 기재됨. 원본 확인 필요"
+    },
+    "119": {
+      "catalog_name": "[무배]에끌라두 유브이 오일프리 선크림 SPF50+ PA++++ 70g",
+      "variants": [
+        {
+          "source_row": 108,
+          "english_name": "UV Oil Free Sun Cream SPF50+/PA++++",
+          "capacity": "70g",
+          "ean": "8809820610442"
+        }
+      ],
+      "note": null
+    },
+    "120": {
+      "catalog_name": "[임박할인]에끌라두 유브이 밀크프로틴 선크림 SPF50+ PA+++ 40g",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "121": {
+      "catalog_name": "[임박할인]에끌라두 유브이 콜라겐 5000 선크림 SPF40 PA++",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "122": {
+      "catalog_name": "에끌라두 레제네 블레미쉬 밤 SPF38 PA+++ 40g (비비크림)",
+      "variants": [
+        {
+          "source_row": 106,
+          "english_name": "regene Blemish Balm SPF38/PA+++",
+          "capacity": "40g",
+          "ean": "8809820611234"
+        }
+      ],
+      "note": null
+    },
+    "123": {
+      "catalog_name": "[무배+임박특가]에끌라두 콜라겐3000 훼이셜 마스크 70g (콜라겐 필오프 마스크팩)",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "124": {
+      "catalog_name": "에끌라두 로얄 밀크 프로틴 페이셜 마스크 70g (단백질팩)",
+      "variants": [
+        {
+          "source_row": 118,
+          "english_name": "ROYAL MILK PROTEIN FACIAL MASK",
+          "capacity": "70g",
+          "ean": "8809820610312"
+        }
+      ],
+      "note": null
+    },
+    "125": {
+      "catalog_name": "에끌라두 샌달우드 괄사(빗모양)",
+      "variants": [],
+      "note": "Golden Sandalwood Gua Sha와 빗모양 상품의 동일성 확인 필요"
+    },
+    "126": {
+      "catalog_name": "에끌라두 샌달우드 괄사(나비모양)",
+      "variants": [],
+      "note": "Golden Sandalwood Gua Sha와 나비모양 상품의 동일성 확인 필요"
+    },
+    "127": {
+      "catalog_name": "에끌라두 오팔라이트 괄사",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "128": {
+      "catalog_name": "에끌라두 멀티큐어 1ea (피부 쿨링패드)",
+      "variants": [
+        {
+          "source_row": 123,
+          "english_name": "Multi Cure",
+          "capacity": "1pcs",
+          "ean": null
+        }
+      ],
+      "note": "엑셀 EAN 미기재"
+    },
+    "131": {
+      "catalog_name": "에끌라두 브이피린 유스 에너지 세럼 80ml",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "132": {
+      "catalog_name": "에끌라두 멜라이져 레디언스 크림 70g",
+      "variants": [
+        {
+          "source_row": 34,
+          "english_name": "Melaser Radiance Cream",
+          "capacity": "70g",
+          "ean": "8809820611258"
+        }
+      ],
+      "note": null
+    },
+    "133": {
+      "catalog_name": "에끌라두 유브이 톤업커버선크림 SPF50+PA++++",
+      "variants": [
+        {
+          "source_row": 107,
+          "english_name": "Tone Up Cover Sun Cream",
+          "capacity": "70g",
+          "ean": "8809820611623"
+        }
+      ],
+      "note": null
+    },
+    "134": {
+      "catalog_name": "에끌라두 밀키 클렌져 200ml",
+      "variants": [
+        {
+          "source_row": 57,
+          "english_name": "Milky Cleanser",
+          "capacity": "200ml",
+          "ean": "8809820610633"
+        }
+      ],
+      "note": null
+    },
+    "135": {
+      "catalog_name": "에끌라두 럭스 멀티 스트레치 패드 200매 토너팩/클렌징 패드",
+      "variants": [
+        {
+          "source_row": 134,
+          "english_name": "Luxe Multi Stretch Pad",
+          "capacity": "200pcs",
+          "ean": "8809820611449"
+        }
+      ],
+      "note": null
+    },
+    "139": {
+      "catalog_name": "블루페탈 블레미쉬 다크스팟 코렉터[잡티,기미,미백크림] 30ml",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "141": {
+      "catalog_name": "블루페탈 인텐시브 카밍크림 [멀티 진정 크림] 50g",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "142": {
+      "catalog_name": "블루페탈 리페어링 엑스폴리앙 스크럼 150g",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "143": {
+      "catalog_name": "블루페탈 와이존 다이아몬드 카밍 마스크 40ml 1BOX (5매입)",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "146": {
+      "catalog_name": "에끌라두 아줄렌 큐어 솔루션 앰플 30ml",
+      "variants": [
+        {
+          "source_row": 74,
+          "english_name": "Azulene Cure Solution Ampoule",
+          "capacity": "30ml",
+          "ean": "8809820611531"
+        }
+      ],
+      "note": null
+    },
+    "149": {
+      "catalog_name": "[임박특가]에끌라두 클리니카 카밍 알로에 수딩젤 40g",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "150": {
+      "catalog_name": "에끌라두 엑소 클리니카 유브이 선크림 SPF50+ PA++++ 50g",
+      "variants": [
+        {
+          "source_row": 78,
+          "english_name": "Exo Clinica UV Suncream",
+          "capacity": "50g",
+          "ean": "8809820611555"
+        }
+      ],
+      "note": null
+    },
+    "153": {
+      "catalog_name": "에끌라두 셀룰리샷 림포크림 200g(바디크림)",
+      "variants": [],
+      "note": "영문 엑셀에서 동일 상품·규격을 확인하지 못해 연결 보류"
+    },
+    "155": {
+      "catalog_name": "에끌라두 엑소 클리니카 크림 50g",
+      "variants": [
+        {
+          "source_row": 77,
+          "english_name": "Exo Clinica Cream",
+          "capacity": "50g",
+          "ean": "8809820610879"
+        }
+      ],
+      "note": "엑셀에서 서로 다른 영문 제품에 같은 EAN이 기재됨. 원본 확인 필요"
+    },
+    "156": {
+      "catalog_name": "에끌라두 엑소 클리니카 겔 300ml",
+      "variants": [
+        {
+          "source_row": 76,
+          "english_name": "Exo Clinica Gel",
+          "capacity": "300ml",
+          "ean": "8809820610381"
+        }
+      ],
+      "note": "엑셀에서 서로 다른 영문 제품에 같은 EAN이 기재됨. 원본 확인 필요"
+    },
+    "157": {
+      "catalog_name": "에끌라두 엑소 클리니카 토너 500ml",
+      "variants": [
+        {
+          "source_row": 75,
+          "english_name": "Exo Clinica Toner",
+          "capacity": "500ml",
+          "ean": "8809096940441"
+        }
+      ],
+      "note": "엑셀에서 서로 다른 영문 제품에 같은 EAN이 기재됨. 원본 확인 필요"
+    },
+    "161": {
+      "catalog_name": "에끌라두 셀빅스 프로+필라젠 크림100g(고주파 괄사)  에끌라두 대표 고주파 괄사 기기",
+      "variants": [],
+      "note": "기기+크림 세트에 기기 단품 ECLADO Celvix Pro의 규격을 대입하지 않음"
+    },
+    "162": {
+      "catalog_name": "에끌라두 엑소 필라젠 크림 100g  리프팅&amp;장벽&amp;볼륨&amp;진정",
+      "variants": [
+        {
+          "source_row": 79,
+          "english_name": "Exo Filagen Cream",
+          "capacity": "100g",
+          "ean": "8809820611814"
+        }
+      ],
+      "note": null
+    },
+    "168": {
+      "catalog_name": "에끌라두 스네일 리프팅 아이패치 50pcs(달팽이패치)",
+      "variants": [
+        {
+          "source_row": 27,
+          "english_name": "Snail Lifting Eye Patch",
+          "capacity": "80g(50pcs)",
+          "ean": "8809820611043"
+        }
+      ],
+      "note": null
+    }
+  }
+}

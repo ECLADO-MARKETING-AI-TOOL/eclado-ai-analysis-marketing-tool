@@ -1,0 +1,1 @@
+"""Eclado Streamlit admin application."""

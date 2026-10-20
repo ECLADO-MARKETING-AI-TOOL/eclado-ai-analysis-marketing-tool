@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "API: FastAPI reload",
+      "type": "shell",
+      "command": "uv",
+      "args": ["run", "uvicorn", "eclado_backend.main:app", "--app-dir", "backend", "--reload"],
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Admin: Streamlit",
+      "type": "shell",
+      "command": "uv",
+      "args": ["run", "streamlit", "run", "admin/eclado_admin/main.py"],
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Tests: pytest",
+      "type": "shell",
+      "command": "uv",
+      "args": ["run", "pytest"],
+      "group": "test",
+      "problemMatcher": []
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+"""Eclado FastAPI backend."""
